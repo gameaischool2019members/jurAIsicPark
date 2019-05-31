@@ -25,11 +25,11 @@ Behind the Scenes
 * Goal: Eat humans or escape dinosaurs
 * Agents: The environment contains many dinosaurs linked to a single dinosaur brian and many humans linked to a single human brain.
 * Dinosaur Reward Function (independent):
-* +1 for interaction with humans
-* -1 for interaction with obstacles and walls
+  - +1 for interaction with humans
+  - -1 for interaction with obstacles and walls
 * Humans Reward Function (independent):
-* -1 for interaction with dinosaurs
-* -1 for interaction with obstacles and walls
+  - -1 for interaction with dinosaurs
+  - -1 for interaction with obstacles and walls
 * Brains: Two Brains with the following observation/action space.
 * Vector Observation space: 74 corresponding to velocity of agent (2) plus ray-based perception of objects around agent's forward (and backward for humans) directions  (12 raycast angles).
 * Vector Action space: (Discrete) 2 Branches:
