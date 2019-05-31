@@ -19,7 +19,7 @@ There are 3 modes in JurAIssic Park:
 
 Behind the Scenes
 ==================
-[JurAIssic Park]images/jurassic.png
+![JurAIssic Park]images/jurassic.png
 
 * Set-up: A multi-agent environment where dinosaurs eat humans and humans escape from dinosuars
 * Goal: Eat humans or escape dinosaurs
